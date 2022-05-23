@@ -1,0 +1,67 @@
+.monster {
+    display: inline-block;
+    vertical-align: top;
+    height: 100px;
+    margin-left: 50px;
+
+}
+
+#monster {
+    border-radius: 5px;
+    border: black solid 1px;
+    background-color: green;
+    width: 100px;
+}
+
+#actionbox {
+    border: 1px solid black;
+    width: 500px;
+    overflow: scroll;
+}
+
+#actionbox >p {
+    margin: 0 ;
+}
+
+ul#status {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul#status li {
+    margin : 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    width: 75px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(180, 57, 205);
+    margin-left: 15px;
+}
+
+button:hover {
+    background-color: rgb(122, 13, 144);
+}
+
+.title{
+    font-family: Arial, Helvetica, sans-serif;
+    color : rgb(122, 13, 144);
+    text-align: center;
+}
+
+.paragraph{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.image {
+    margin-left: 15px;
+    margin-top: 15px;
+    width: 70px;
+    height: 70px;
+}
